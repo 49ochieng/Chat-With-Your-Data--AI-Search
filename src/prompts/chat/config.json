@@ -16,7 +16,7 @@
     },
     "augmentation": {
         "data_sources": {
-            "azure-ai-search": 800
+            "azure-ai-search": 1200
         }
     }
 }
