@@ -14,7 +14,7 @@ if (!azureOpenAIKey) {
 process.env.SECRET_AZURE_OPENAI_API_KEY = azureOpenAIKey;
 
 /**
- *  Main function that creates the index and upserts the documents.
+ *  Main function that creates the index and upserts the documents in azure ai search.
  */
 async function main() {
     const index = "my-documents";
