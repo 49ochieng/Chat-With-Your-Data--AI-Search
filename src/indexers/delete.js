@@ -1,6 +1,6 @@
 const { AzureKeyCredential, SearchIndexClient } = require("@azure/search-documents");
 const { deleteIndex } = require("./utils");
-// deletes the index with the name
+// deletes the index named 
 const index = "my-documents";
 const searchApiKey = process.argv[2];
 if (!searchApiKey) {
