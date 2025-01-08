@@ -7,6 +7,7 @@ const { OpenAIEmbeddings } = require("@microsoft/teams-ai");
 /**
  * A wrapper for setTimeout that resolves a promise after timeInMs milliseconds.
  */
+
 function delay(timeInMs) {
     return new Promise((resolve) => setTimeout(resolve, timeInMs));
 }
@@ -14,6 +15,7 @@ function delay(timeInMs) {
 /**
  * Deletes the index with the given name
  */
+
 function deleteIndex(client, name) {
     return client.deleteIndex(name);
 }
