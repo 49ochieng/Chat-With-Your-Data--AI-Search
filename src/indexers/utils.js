@@ -63,7 +63,7 @@ async function createIndexIfNotExists(client, name) {
             },
         ],
         corsOptions: {
-            // for browser tests
+            // for browser tests 
             allowedOrigins: ["*"]
         },
         vectorSearch: {
