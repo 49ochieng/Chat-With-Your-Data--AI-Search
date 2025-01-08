@@ -2,7 +2,7 @@ const { AzureKeyCredential, SearchClient, SearchIndexClient } = require("@azure/
 const { createIndexIfNotExists, delay, upsertDocuments, getEmbeddingVector } = require("./utils");
 const path = require("path");
 const fs = require("fs");
- 
+
 const searchApiKey = process.argv[2];
 if (!searchApiKey) {
   throw new Error("Missing input Azure AI Search Key");
