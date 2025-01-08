@@ -28,7 +28,7 @@ async function upsertDocuments(client, documents) {
 }
 
 /**
- * Creates the index with the given name
+ * Creates the index
  */
 async function createIndexIfNotExists(client, name) {
     const MyDocumentIndex = {
