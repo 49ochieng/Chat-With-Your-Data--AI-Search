@@ -8,7 +8,7 @@ This app template also demonstrates usage of techniques like:
 
 ## Get started with the template
 
-> **Prerequisites**
+> **Prerequisites** 
 >
 > To run the template in your local dev machine, you will need:
 >
