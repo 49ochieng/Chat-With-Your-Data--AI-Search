@@ -1,7 +1,7 @@
 {
     "name": "chatwithyourdataaisearch",
     "version": "1.0.0",
-    "msteams": {
+    "msteams": { 
         "teamsAppId": null
     },
     "description": "Microsoft Teams Toolkit RAG Bot Sample with Azure AI Search and Teams AI Library",
