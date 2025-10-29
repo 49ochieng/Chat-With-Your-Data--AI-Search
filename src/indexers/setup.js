@@ -47,6 +47,7 @@ async function main() {
         data.push({
             docId: i+"",
             docTitle: files[i-1],
+            
             description: content,
             descriptionVector: await getEmbeddingVector(content),
         });
